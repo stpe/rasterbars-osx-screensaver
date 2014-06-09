@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E383ADD191EA2BA00AF1066 /* RasterbarsScreensaver.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E777A39191C099700BEA7E8 /* RasterbarsScreensaver.saver */; };
+		4E383AE0191F937B00AF1066 /* Rasterbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E383ADE191F937B00AF1066 /* Rasterbar.h */; };
+		4E383AE1191F937B00AF1066 /* Rasterbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E383ADF191F937B00AF1066 /* Rasterbar.m */; };
+		4E777A3D191C099700BEA7E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E777A3C191C099700BEA7E8 /* Cocoa.framework */; };
+		4E777A3F191C099700BEA7E8 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E777A3E191C099700BEA7E8 /* ScreenSaver.framework */; };
+		4E777A49191C099700BEA7E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E777A47191C099700BEA7E8 /* InfoPlist.strings */; };
+		4E777A4D191C099700BEA7E8 /* RasterbarsScreensaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E777A4C191C099700BEA7E8 /* RasterbarsScreensaverView.m */; };
+		4EB21796192E409C00F0EC01 /* Effect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB21794192E409C00F0EC01 /* Effect.h */; };
+		4EB21797192E409C00F0EC01 /* Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB21795192E409C00F0EC01 /* Effect.m */; };
+		4EB217A3192E585500F0EC01 /* Rotator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB217A1192E585500F0EC01 /* Rotator.h */; };
+		4EB217A4192E585500F0EC01 /* Rotator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB217A2192E585500F0EC01 /* Rotator.m */; };
+		4ED98198193694B400AA2C99 /* Wave.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED98196193694B400AA2C99 /* Wave.h */; };
+		4ED98199193694B400AA2C99 /* Wave.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED98197193694B400AA2C99 /* Wave.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E383ADC191EA1F000AF1066 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Screen Savers";
+			dstSubfolderSpec = 0;
+			files = (
+				4E383ADD191EA2BA00AF1066 /* RasterbarsScreensaver.saver in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E383ADE191F937B00AF1066 /* Rasterbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rasterbar.h; sourceTree = "<group>"; };
+		4E383ADF191F937B00AF1066 /* Rasterbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rasterbar.m; sourceTree = "<group>"; };
+		4E777A39191C099700BEA7E8 /* RasterbarsScreensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RasterbarsScreensaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E777A3C191C099700BEA7E8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4E777A3E191C099700BEA7E8 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		4E777A41191C099700BEA7E8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4E777A42191C099700BEA7E8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4E777A43191C099700BEA7E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E777A46191C099700BEA7E8 /* RasterbarsScreensaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RasterbarsScreensaver-Info.plist"; sourceTree = "<group>"; };
+		4E777A48191C099700BEA7E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E777A4A191C099700BEA7E8 /* RasterbarsScreensaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RasterbarsScreensaver-Prefix.pch"; sourceTree = "<group>"; };
+		4E777A4B191C099700BEA7E8 /* RasterbarsScreensaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RasterbarsScreensaverView.h; sourceTree = "<group>"; };
+		4E777A4C191C099700BEA7E8 /* RasterbarsScreensaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RasterbarsScreensaverView.m; sourceTree = "<group>"; };
+		4EB21794192E409C00F0EC01 /* Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Effect.h; sourceTree = "<group>"; };
+		4EB21795192E409C00F0EC01 /* Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Effect.m; sourceTree = "<group>"; };
+		4EB217A1192E585500F0EC01 /* Rotator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rotator.h; sourceTree = "<group>"; };
+		4EB217A2192E585500F0EC01 /* Rotator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rotator.m; sourceTree = "<group>"; };
+		4ED98196193694B400AA2C99 /* Wave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wave.h; sourceTree = "<group>"; };
+		4ED98197193694B400AA2C99 /* Wave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wave.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E777A34191C099700BEA7E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E777A3F191C099700BEA7E8 /* ScreenSaver.framework in Frameworks */,
+				4E777A3D191C099700BEA7E8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E777A2E191C099700BEA7E8 = {
+			isa = PBXGroup;
+			children = (
+				4E777A44191C099700BEA7E8 /* RasterbarsScreensaver */,
+				4E777A3B191C099700BEA7E8 /* Frameworks */,
+				4E777A3A191C099700BEA7E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E777A3A191C099700BEA7E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E777A39191C099700BEA7E8 /* RasterbarsScreensaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E777A3B191C099700BEA7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E777A3C191C099700BEA7E8 /* Cocoa.framework */,
+				4E777A3E191C099700BEA7E8 /* ScreenSaver.framework */,
+				4E777A40191C099700BEA7E8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E777A40191C099700BEA7E8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E777A41191C099700BEA7E8 /* AppKit.framework */,
+				4E777A42191C099700BEA7E8 /* CoreData.framework */,
+				4E777A43191C099700BEA7E8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4E777A44191C099700BEA7E8 /* RasterbarsScreensaver */ = {
+			isa = PBXGroup;
+			children = (
+				4E777A4B191C099700BEA7E8 /* RasterbarsScreensaverView.h */,
+				4E777A4C191C099700BEA7E8 /* RasterbarsScreensaverView.m */,
+				4E777A45191C099700BEA7E8 /* Supporting Files */,
+				4EB21794192E409C00F0EC01 /* Effect.h */,
+				4EB21795192E409C00F0EC01 /* Effect.m */,
+				4EB217A0192E583D00F0EC01 /* Effects */,
+				4E383ADE191F937B00AF1066 /* Rasterbar.h */,
+				4E383ADF191F937B00AF1066 /* Rasterbar.m */,
+			);
+			path = RasterbarsScreensaver;
+			sourceTree = "<group>";
+		};
+		4E777A45191C099700BEA7E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E777A46191C099700BEA7E8 /* RasterbarsScreensaver-Info.plist */,
+				4E777A47191C099700BEA7E8 /* InfoPlist.strings */,
+				4E777A4A191C099700BEA7E8 /* RasterbarsScreensaver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EB217A0192E583D00F0EC01 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				4EB217A1192E585500F0EC01 /* Rotator.h */,
+				4EB217A2192E585500F0EC01 /* Rotator.m */,
+				4ED98196193694B400AA2C99 /* Wave.h */,
+				4ED98197193694B400AA2C99 /* Wave.m */,
+			);
+			name = Effects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E777A35191C099700BEA7E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E383AE0191F937B00AF1066 /* Rasterbar.h in Headers */,
+				4EB217A3192E585500F0EC01 /* Rotator.h in Headers */,
+				4EB21796192E409C00F0EC01 /* Effect.h in Headers */,
+				4ED98198193694B400AA2C99 /* Wave.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E777A38191C099700BEA7E8 /* RasterbarsScreensaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E777A50191C099700BEA7E8 /* Build configuration list for PBXNativeTarget "RasterbarsScreensaver" */;
+			buildPhases = (
+				4E777A33191C099700BEA7E8 /* Sources */,
+				4E777A34191C099700BEA7E8 /* Frameworks */,
+				4E777A35191C099700BEA7E8 /* Headers */,
+				4E777A36191C099700BEA7E8 /* Resources */,
+				4E777A37191C099700BEA7E8 /* Rez */,
+				4E383ADC191EA1F000AF1066 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RasterbarsScreensaver;
+			productName = RasterbarsScreensaver;
+			productReference = 4E777A39191C099700BEA7E8 /* RasterbarsScreensaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E777A2F191C099700BEA7E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stefan Pettersson";
+			};
+			buildConfigurationList = 4E777A32191C099700BEA7E8 /* Build configuration list for PBXProject "RasterbarsScreensaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E777A2E191C099700BEA7E8;
+			productRefGroup = 4E777A3A191C099700BEA7E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E777A38191C099700BEA7E8 /* RasterbarsScreensaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E777A36191C099700BEA7E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E777A49191C099700BEA7E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		4E777A37191C099700BEA7E8 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E777A33191C099700BEA7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED98199193694B400AA2C99 /* Wave.m in Sources */,
+				4EB21797192E409C00F0EC01 /* Effect.m in Sources */,
+				4E383AE1191F937B00AF1066 /* Rasterbar.m in Sources */,
+				4E777A4D191C099700BEA7E8 /* RasterbarsScreensaverView.m in Sources */,
+				4EB217A4192E585500F0EC01 /* Rotator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E777A47191C099700BEA7E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E777A48191C099700BEA7E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E777A4E191C099700BEA7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E777A4F191C099700BEA7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4E777A51191C099700BEA7E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RasterbarsScreensaver/RasterbarsScreensaver-Prefix.pch";
+				INFOPLIST_FILE = "RasterbarsScreensaver/RasterbarsScreensaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		4E777A52191C099700BEA7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RasterbarsScreensaver/RasterbarsScreensaver-Prefix.pch";
+				INFOPLIST_FILE = "RasterbarsScreensaver/RasterbarsScreensaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E777A32191C099700BEA7E8 /* Build configuration list for PBXProject "RasterbarsScreensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E777A4E191C099700BEA7E8 /* Debug */,
+				4E777A4F191C099700BEA7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E777A50191C099700BEA7E8 /* Build configuration list for PBXNativeTarget "RasterbarsScreensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E777A51191C099700BEA7E8 /* Debug */,
+				4E777A52191C099700BEA7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E777A2F191C099700BEA7E8 /* Project object */;
+}
