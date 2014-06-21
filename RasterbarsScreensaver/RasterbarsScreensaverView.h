@@ -6,6 +6,10 @@
 
 @interface RasterbarsScreensaverView : ScreenSaverView {
     Effect *effect;
+    NSArray *effects;
+    NSEnumerator *effectsEnum;
 }
+
+- (void)nextEffectTimerMethod:(NSTimer*)timer;
 
 @end

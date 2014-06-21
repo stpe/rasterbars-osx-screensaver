@@ -20,14 +20,33 @@
         
         NSSize size = [self bounds].size;
         
-        // The idea is to have an array of effects that
-        // are cycled through. They all inherit from the
-        // Effect class.
+        // put available effects in an array
+        effects = [NSArray arrayWithObjects:
+                            [Rotator effectWithSize:size],
+                            [Wave effectWithSize:size],
+                            nil];
         
-        effect = [Rotator effectWithSize:size];
-//        effect = [Wave effectWithSize:size];
+        // use an enumerator to cycle through them triggered by a timer
+        effectsEnum = [effects objectEnumerator];
+
+        // start with first effect
+        effect = [effectsEnum nextObject];
+        
+        [NSTimer scheduledTimerWithTimeInterval:30.0
+            target:self
+            selector:@selector(nextEffectTimerMethod:)
+            userInfo:nil
+            repeats:YES];
     }
     return self;
+}
+
+- (void)nextEffectTimerMethod:(NSTimer*)timer {
+    if (!(effect = [effectsEnum nextObject])) {
+        // if array exhausted, get a new enumerator and start over
+        effectsEnum = [effects objectEnumerator];
+        effect = [effectsEnum nextObject];
+    }
 }
 
 - (void)startAnimation
